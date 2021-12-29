@@ -14,7 +14,7 @@ Ans:
 * create database
 
 use zen_class;
--------------------------------------------------------------------------------------------------------
+-------------------------------
 
 * create collection users and insert data
 db.createCollection("users");
@@ -22,38 +22,38 @@ db.createCollection("users");
 db.users.insertMany([
     {
         userid:1,
-        name:"Amar",
-        email:"amar088@gmail.com",
+        name:"Aniket",
+        email:"aniket12@gmail.com",
         
     },
      {
         userid:2,
-        name:"Bharat",
-        email:"bharat99@gmail.com",
+        name:"ganesh",
+        email:"ganesh@gmail.com",
      
     },
      {
         userid:3,
-        name:"Akshay",
-        email:"akki777@gmail.com",
+        name:"chanchal",
+        email:"chanchal@gmail.com",
      
     },
      {
         userid:4,
-        name:"Samir",
-        email:"samir786@gmail.com",
+        name:"ekta",
+        email:"ekta@gmail.com",
        
     },
      {
         userid:5,
-        name:"Charan",
-        email:"charan55@gmail.com",
+        name:"Rani",
+        email:"Rani@gmail.com",
         
     }
     
     ])
 
--------------------------------------------------------------------------------------------------------
+------------
     * create collection codekata and insert data
     db.createCollection("codekata");
 
@@ -80,7 +80,7 @@ db.codekata.insertMany([
     }
     ])  
 
---------------------------------------------------------------------------------------------------
+-----
    * create collection topics and insert data
 db.createCollection("topics");
 
@@ -112,7 +112,7 @@ db.topics.insertMany([
     }
     ])
 
-    --------------------------------------------------------------------------------------------------
+------------
     * create collection tasks and insert data
 
     db.createCollection("tasks");
@@ -160,7 +160,7 @@ db.topics.insertMany([
     }
     ])
 
-      --------------------------------------------------------------------------------------------------
+      ---------------
     * create collection attendance and insert data
 
       db.createCollection("attendance");
@@ -194,7 +194,7 @@ db.topics.insertMany([
     
     ])
     
-    --------------------------------------------------------------------------------------------------
+    -----------
     * create collection mentors and insert data
 
       db.createCollection("mentors");
@@ -232,7 +232,7 @@ db.topics.insertMany([
     }
     ])
 
-    --------------------------------------------------------------------------------------------------
+    ---------
     * create collection company drives and insert data
 
       db.createCollection("companydrives");
